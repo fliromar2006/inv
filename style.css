@@ -1,0 +1,50 @@
+/* all page start */
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+/* all page end */
+
+/* nav start */
+
+nav {
+  background-color: rgb(21, 21, 21);
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav {
+  position: relative;
+  left: 60px;
+}
+
+.left-nav img {
+  position: relative;
+  top: 30px;
+  left: 60px;
+}
+
+.right-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  right: 180px;
+  top: 35px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.fa-magnifying-glass {
+  color: rgb(90, 210, 185);
+  position: relative;
+  right: 150px;
+  top: 45px;
+  scale: 1.4;
+}
+
+
